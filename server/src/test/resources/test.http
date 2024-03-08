@@ -1,0 +1,296 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8080/AkankshaBookstoreReactOrder/api/categories
+Accept: application/json
+
+###
+
+# curl 'http://localhost:8080/AkankshaBookstoreReactOrder/api/api/orders' -X POST -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Origin: http://localhost:8080' -H 'Connection: keep-alive' -H 'Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' --data-raw '{"customerForm":{"name":"Akaks","address":"sabdhbdhb","phone":"5555333322","email":"dssa@dsds.com","ccNumber":"4444333322221111","ccExpiryMonth":0,"ccExpiryYear":0},"cart":{"itemArray":[{"id":1005,"book":{"bookId":1005,"title":"Outlander","author":"Diana Gabaldon","description":"","price":12,"rating":2,"isPublic":true,"isFeatured":false,"categoryId":1002},"quantity":1}]}}'
+POST http://localhost:8080/AkankshaBookstoreReactOrder/api/orders
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Origin: http://localhost:8080
+Connection: keep-alive
+Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "Akaks",
+    "address": "sabdhbdhb",
+    "phone": "55553",
+    "email": "dssa@dsds.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 0,
+    "ccExpiryYear": 0
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1005,
+        "book": {
+          "bookId": 1005,
+          "title": "Outlander",
+          "author": "Diana Gabaldon",
+          "description": "",
+          "price": 12,
+          "rating": 2,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1002
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+# curl 'http://localhost:3004/AkankshaBookstoreReactOrder/api/orders'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Accept-Language: en-US,en;q=0.9'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53'
+#  -H 'Origin: http://localhost:3004'
+#  -H 'Referer: http://localhost:3004/AkankshaBookstoreReactOrder/Checkout'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-origin'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  --data-raw '{"customerForm":{"name":"adasdasf","address":"sadjshaih","phone":"7377330277","email":"sads@ndsj.cm","ccNumber":"4444333322221111","ccExpiryMonth":5,"ccExpiryYear":2025},"cart":{"itemArray":[{"id":1001,"book":{"bookId":1001,"title":"A Book Of Life","author":"Peter Kingsley","description":"","price":7,"rating":4,"isPublic":false,"isFeatured":true,"categoryId":1001},"quantity":2}]}}'
+#  --compressed
+POST http://localhost:3004/AkankshaBookstoreReactOrder/api/orders
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53
+Origin: http://localhost:3004
+Referer: http://localhost:3004/AkankshaBookstoreReactOrder/Checkout
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "adasdasf",
+    "address": "sadjshaih",
+    "phone": "7377330277",
+    "email": "sads@ndsj.cm",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 5,
+    "ccExpiryYear": 2025
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1001,
+        "book": {
+          "bookId": 1001,
+          "title": "A Book Of Life",
+          "author": "Peter Kingsley",
+          "description": "",
+          "price": 7,
+          "rating": 4,
+          "isPublic": false,
+          "isFeatured": true,
+          "categoryId": 1001
+        },
+        "quantity": 2
+      }
+    ]
+  }
+}
+
+###
+
+# curl 'http://localhost:8080/AkankshaBookstoreReactOrder/AkankshaBookstoreReactOrder/api/orders'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Accept-Language: en-US,en;q=0.9'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53'
+#  -H 'Origin: http://localhost:8080'
+#  -H 'Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-origin'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  --data-raw '{"customerForm":{"name":"sadsad","address":"sdasdbksb","phone":"7377330277","email":"jsadj@sjdjah.com","ccNumber":"4444333322221111","ccExpiryMonth":5,"ccExpiryYear":2028},"cart":{"itemArray":[{"id":1001,"book":{"bookId":1001,"title":"A Book Of Life","author":"Peter Kingsley","description":"","price":7,"rating":4,"isPublic":false,"isFeatured":true,"categoryId":1001},"quantity":1},{"id":1010,"book":{"bookId":1010,"title":"Gone Girl","author":"Gillian Flynn","description":"","price":8,"rating":3,"isPublic":true,"isFeatured":true,"categoryId":1003},"quantity":1}]}}'
+#  --compressed
+POST http://localhost:8080/AkankshaBookstoreReactOrder/api/orders
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53
+Origin: http://localhost:8080
+Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "sadsad",
+    "address": "sdasdbksb",
+    "phone": "7377330277",
+    "email": "jsadjsjdjah.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 5,
+    "ccExpiryYear": 2025
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1001,
+        "book": {
+          "bookId": 1001,
+          "title": "A Book Of Life",
+          "author": "Peter Kingsley",
+          "description": "",
+          "price": 7,
+          "rating": 4,
+          "isPublic": false,
+          "isFeatured": true,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1010,
+        "book": {
+          "bookId": 1010,
+          "title": "Gone Girl",
+          "author": "Gillian Flynn",
+          "description": "",
+          "price": 8,
+          "rating": 3,
+          "isPublic": true,
+          "isFeatured": true,
+          "categoryId": 1003
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+
+# curl 'http://localhost:8080/AkankshaBookstoreReactOrder/AkankshaBookstoreReactOrder/api/orders'
+#  -H 'Accept: application/json, text/plain, */*'
+#  -H 'Accept-Language: en-US,en;q=0.9'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53'
+#  -H 'Origin: http://localhost:8080'
+#  -H 'Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-origin'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  --data-raw '{"customerForm":{"name":"sdsdbkj","address":"dsdasdfa","phone":"2123455657","email":"sajbda@shab.om","ccNumber":"4444333322221111","ccExpiryMonth":0,"ccExpiryYear":0},"cart":{"itemArray":[{"id":1001,"book":{"bookId":1001,"title":"A Book Of Life","author":"Peter Kingsley","description":"","price":7,"rating":4,"isPublic":false,"isFeatured":true,"categoryId":1001},"quantity":1},{"id":1010,"book":{"bookId":1010,"title":"Gone Girl","author":"Gillian Flynn","description":"","price":8,"rating":3,"isPublic":true,"isFeatured":true,"categoryId":1003},"quantity":1}]}}'
+#  --compressed
+POST http://localhost:8080/AkankshaBookstoreReactOrder/api/orders
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Cookie: Idea-c343c0f2=377035b7-a598-4776-bd37-da6a2a89eb53
+Origin: http://localhost:8080
+Referer: http://localhost:8080/AkankshaBookstoreReactOrder/Checkout
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "sdsdbkj",
+    "address": "dsdasdfa",
+    "phone": "2123455657",
+    "email": "sajbda@shab.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 0,
+    "ccExpiryYear": 0
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1001,
+        "book": {
+          "bookId": 1001,
+          "title": "A Book Of Life",
+          "author": "Peter Kingsley",
+          "description": "",
+          "price": 7,
+          "rating": 4,
+          "isPublic": false,
+          "isFeatured": true,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1010,
+        "book": {
+          "bookId": 1010,
+          "title": "Gone Girl",
+          "author": "Gillian Flynn",
+          "description": "",
+          "price": 8,
+          "rating": 3,
+          "isPublic": true,
+          "isFeatured": true,
+          "categoryId": 1003
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+
+
+
+
+
+
+
+
+
+

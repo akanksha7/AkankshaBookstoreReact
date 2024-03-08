@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/AkankshaBookstoreReactOrder/static/css/main.a3468ec5.css",
+    "main.js": "/AkankshaBookstoreReactOrder/static/js/main.1a4efc98.js",
+    "static/js/787.d5fa4d18.chunk.js": "/AkankshaBookstoreReactOrder/static/js/787.d5fa4d18.chunk.js",
+    "static/media/jane-eyre.png": "/AkankshaBookstoreReactOrder/static/media/jane-eyre.f7e5b6114a68b711b7ab.png",
+    "static/media/the-moonstone.png": "/AkankshaBookstoreReactOrder/static/media/the-moonstone.10e17a35292dbb715a23.png",
+    "static/media/game-of-thrones.png": "/AkankshaBookstoreReactOrder/static/media/game-of-thrones.1dcd5afa2ba4e4371bd6.png",
+    "static/media/little-dorrit.png": "/AkankshaBookstoreReactOrder/static/media/little-dorrit.5dcf33a69b80b1db873e.png",
+    "static/media/the-notebook.png": "/AkankshaBookstoreReactOrder/static/media/the-notebook.20718bfa6de487ab49bf.png",
+    "static/media/presumed-innocent.png": "/AkankshaBookstoreReactOrder/static/media/presumed-innocent.2cc00397e993e661a046.png",
+    "static/media/beach-read.png": "/AkankshaBookstoreReactOrder/static/media/beach-read.830ad86364c3c51a3c24.png",
+    "static/media/the-awakening.png": "/AkankshaBookstoreReactOrder/static/media/the-awakening.ba92d485bd60e9653457.png",
+    "static/media/gone-girl.png": "/AkankshaBookstoreReactOrder/static/media/gone-girl.b45006f8bbcf834cb1ba.png",
+    "static/media/a-book-of-life.png": "/AkankshaBookstoreReactOrder/static/media/a-book-of-life.30d9fc8d8aa376398207.png",
+    "static/media/devils-child.png": "/AkankshaBookstoreReactOrder/static/media/devils-child.fdae9b848b67bf4ffbc3.png",
+    "static/media/american-gods.png": "/AkankshaBookstoreReactOrder/static/media/american-gods.748822565d8581981d9a.png",
+    "static/media/the-brothers.png": "/AkankshaBookstoreReactOrder/static/media/the-brothers.b817c97694ecc7539fb6.png",
+    "static/media/a-little-life.png": "/AkankshaBookstoreReactOrder/static/media/a-little-life.0d8b7cf09cc2efb0f5d5.png",
+    "static/media/the-housemaid.png": "/AkankshaBookstoreReactOrder/static/media/the-housemaid.7e62bab97d7e93e82b31.png",
+    "static/media/outlander.png": "/AkankshaBookstoreReactOrder/static/media/outlander.4df2b69e1e115aedf3fb.png",
+    "static/media/logo.png": "/AkankshaBookstoreReactOrder/static/media/logo.33e9854022263339dd77.png",
+    "static/media/the-outsiders.png": "/AkankshaBookstoreReactOrder/static/media/the-outsiders.c82c2f280d13f44bba9d.png",
+    "static/media/vericity.png": "/AkankshaBookstoreReactOrder/static/media/vericity.f3a9db737f3a31f7f79c.png",
+    "static/media/atomic-habits.png": "/AkankshaBookstoreReactOrder/static/media/atomic-habits.65bc26ee3300b8d39fbc.png",
+    "static/media/welcome-text.png": "/AkankshaBookstoreReactOrder/static/media/welcome-text.2895b2c54c2bd7eb594c.png",
+    "static/media/twisted-games.png": "/AkankshaBookstoreReactOrder/static/media/twisted-games.f75a71da8710854f115a.png",
+    "index.html": "/AkankshaBookstoreReactOrder/index.html",
+    "main.a3468ec5.css.map": "/AkankshaBookstoreReactOrder/static/css/main.a3468ec5.css.map",
+    "main.1a4efc98.js.map": "/AkankshaBookstoreReactOrder/static/js/main.1a4efc98.js.map",
+    "787.d5fa4d18.chunk.js.map": "/AkankshaBookstoreReactOrder/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3468ec5.css",
+    "static/js/main.1a4efc98.js"
+  ]
+}
